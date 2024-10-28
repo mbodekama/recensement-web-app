@@ -20,7 +20,7 @@ if(isset($_POST['name']) && isset($_POST['password'])) {
     if ($user) {
         $_SESSION['connected'] = 1;
         $_SESSION['user_id'] = $user['id'];
-        echo "Authentification réussie.";
+        //echo "Authentification réussie.";
         if($user['email'] == "admin")
         {
         header('Location: dash.php'); // rediriger vers la page sécurisée

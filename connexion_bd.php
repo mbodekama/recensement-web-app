@@ -1,8 +1,16 @@
 <?php
+/*
 $host = "185.98.131.160"; // adresse de l'hôte de la base de données
 $username = "cervo2054563"; // nom d'utilisateur pour se connecter à la base de données
 $password = "cY6-wyx42kagRPm"; // mot de passe pour se connecter à la base de données
 $database = "cervo2054563_4s1bix"; // nom de la base de données
+*/
+
+$host = 'mysql'; // Nom du service MySQL dans Docker Compose
+$database = 'app_db';
+$username = 'app_user';
+$password = 'app_password';
+
 
 // Créer une instance de PDO pour se connecter à la base de données
 try {
