@@ -10,7 +10,7 @@
     <!-- ===============================================-->
     <!--    Document Title-->
     <!-- ===============================================-->
-    <title>INNOVING | Dashboard &amp; WebApp</title>
+    <title>RECENSEMENT_WEB | Dashboard &amp; WebApp</title>
 
 
     <!-- ===============================================-->
@@ -45,7 +45,7 @@
 
       <div class="container" data-layout="container">
         <div class="row flex-center min-vh-100 py-6">
-          <div class="col-sm-10 col-md-8 col-lg-6 col-xl-5 col-xxl-4"><a class="d-flex flex-center mb-4" href="#"><img class="mr-2" src="assets/img/illustrations/falcon.png" alt="" width="58" /><span class="text-sans-serif font-weight-extra-bold fs-5 d-inline-block">INNOVING</span></a>
+          <div class="col-sm-10 col-md-8 col-lg-6 col-xl-5 col-xxl-4"><a class="d-flex flex-center mb-4" href="#"><img class="mr-2" src="assets/img/illustrations/falcon.png" alt="" width="58" /><span class="text-sans-serif font-weight-extra-bold fs-5 d-inline-block">RECENSEMENT_WEB</span></a>
             <div class="card">
               <div class="card-body p-4 p-sm-5">
                 <div class="row text-left justify-content-between align-items-center mb-2">

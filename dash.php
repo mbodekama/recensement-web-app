@@ -110,7 +110,7 @@ $dataset =  count_vendeur_by_agent($conn);
     <!-- ===============================================-->
     <!--    Document Title-->
     <!-- ===============================================-->
-    <title>INNOVING | Dashboard &amp; WebApp</title>
+    <title>RECENSEMENT_WEB | Dashboard &amp; WebApp</title>
 
 
     <!-- ===============================================-->
@@ -590,7 +590,7 @@ $dataset =  count_vendeur_by_agent($conn);
                           <div class="wame" idPrd="{{ $prdL->id }}"  idVnt ="{{ $vente->id }}">
                             <?php
                             $tel = $row['telephone'];
-                            $text = "*Prends%20le%20contrôle%20de%20ton%20business%20avec%20Nzassa,%20l%27application%20de%20gestion%20digitale.%20Rejoins%20le%20Gbonhi%20ðÂÂÂðÂÂ¿%20https://fb.me/innovingapp*";
+                            $text = "*Prends%20le%20contrôle%20de%20ton%20business%20avec%20Nzassa,%20l%27application%20de%20gestion%20digitale.%20Rejoins%20le%20Gbonhi%20ðÂÂÂðÂÂ¿%20https://fb.me/RECENSEMENT_WEBapp*";
                             $wame = "https://api.whatsapp.com/send/?phone=%2B225".$tel."&text=".$text; 
                             ?>
                             <a href="<?=$wame?>" target="_blank">
@@ -706,7 +706,7 @@ $dataset =  count_vendeur_by_agent($conn);
             let VntPrdLine = $(this).attr('VntPrdLine');
             let idV = $(this).attr('idVnt');
             let telVendeur =$(this).attr('telVendeur');
-            telVendeur = "https://api.whatsapp.com/send/?phone=%2B225"+telVendeur+"&text='*HELLO%20INNOVING*'"
+            telVendeur = "https://api.whatsapp.com/send/?phone=%2B225"+telVendeur+"&text='*HELLO%20RECENSEMENT_WEB*'"
 
              // Création d'un élément temporaire "textarea"
               var tempTextArea = document.createElement("textarea");

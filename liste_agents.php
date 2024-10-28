@@ -37,7 +37,7 @@ $stmt = $conn->query($sql);
     <!-- ===============================================-->
     <!--    Document Title-->
     <!-- ===============================================-->
-    <title>INNOVING | Dashboard &amp; WebApp</title>
+    <title>RECENSEMENT_WEB | Dashboard &amp; WebApp</title>
 
 
     <!-- ===============================================-->
@@ -358,7 +358,7 @@ $stmt = $conn->query($sql);
           <!-- -------------------------------------------->
           <div class="media mb-4 mt-2"><span class="fa-stack mr-2 ml-n1"><i class="fas fa-circle fa-stack-2x text-300"></i><i class="fa-inverse fa-stack-1x text-primary fas fa-list" data-fa-transform="shrink-2"></i></span>
             <div class="media-body">
-              <h5 class="mb-0 text-primary position-relative"><span class="bg-200 pr-3">Les des agents INNOVING</span><span class="border position-absolute absolute-vertical-center w-100 z-index--1 l-0"></span></h5>
+              <h5 class="mb-0 text-primary position-relative"><span class="bg-200 pr-3">Les des agents RECENSEMENT_WEB</span><span class="border position-absolute absolute-vertical-center w-100 z-index--1 l-0"></span></h5>
               <p class="mb-0">Listes </p>
             </div>
           </div>
@@ -429,7 +429,7 @@ $stmt = $conn->query($sql);
                       <td class="py-2 align-middle">
                         
                         <span class="badge badge-pill badge-soft-info fs-0" style="text-transform: uppercase;">
-                          INNOVING
+                          RECENSEMENT_WEB
                             
                           </span>
                           
@@ -546,7 +546,7 @@ $stmt = $conn->query($sql);
             let VntPrdLine = $(this).attr('VntPrdLine');
             let idV = $(this).attr('idVnt');
             let telVendeur =$(this).attr('telVendeur');
-            telVendeur = "https://api.whatsapp.com/send/?phone=%2B225"+telVendeur+"&text='*HELLO%20INNOVING*'"
+            telVendeur = "https://api.whatsapp.com/send/?phone=%2B225"+telVendeur+"&text='*HELLO%20RECENSEMENT_WEB*'"
 
              // Création d'un élément temporaire "textarea"
               var tempTextArea = document.createElement("textarea");

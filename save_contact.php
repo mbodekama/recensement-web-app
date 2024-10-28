@@ -19,7 +19,7 @@ if(isset($_SESSION['connected']))
     <!-- ===============================================-->
     <!--    Document Title-->
     <!-- ===============================================-->
-    <title>INNOVING | COLLECTE &amp; WebApp</title>
+    <title>RECENSEMENT_WEB | COLLECTE &amp; WebApp</title>
 
 
     <!-- ===============================================-->
