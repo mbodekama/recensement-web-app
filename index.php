@@ -35,7 +35,6 @@
 
   </head>
 
-
   <body>
 
     <!-- ===============================================-->
@@ -104,7 +103,6 @@
     <script src="assets/lib/perfect-scrollbar/perfect-scrollbar.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700%7cPoppins:100,200,300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet">
     <script src="assets/js/theme.js"></script>
-
   </body>
 
 </html>
